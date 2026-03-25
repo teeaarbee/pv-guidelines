@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PV Editors Playbook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Brand Guidelines</h1>
+            <p>The essential guide for video editors. Colors, Typography, and Subtitling standards.</p>
+            <a href="#downloads" class="btn">Jump to Downloads</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- 1. Color Palette -->
+        <section class="section">
+            <h2 class="text-prime-blue">01. Our Colors</h2>
+            <p>Click any color to copy its Hex code.</p>
+
+            <h3>Primary</h3>
+            <div class="grid grid-2">
+                <div class="swatch" style="background: var(--prime-blue);" data-color="#0578FF"
+                    onclick="copyToClipboard('#0578FF')">
+                    <div class="swatch-info" style="position:absolute; bottom:10px; left:15px; color:white;">
+                        <h4>Prime Blue</h4>
+                        <code>#0578FF</code>
+                    </div>
+                </div>
+                <div class="swatch" style="background: var(--black);" data-color="#000000"
+                    onclick="copyToClipboard('#000000')">
+                    <div class="swatch-info" style="position:absolute; bottom:10px; left:15px; color:white;">
+                        <h4>Black</h4>
+                        <code>#000000</code>
+                    </div>
+                </div>
+                <div class="swatch" style="background: var(--white); border: 1px solid #ccc;" data-color="#FFFFFF"
+                    onclick="copyToClipboard('#FFFFFF')">
+                    <div class="swatch-info" style="position:absolute; bottom:10px; left:15px; color:black;">
+                        <h4>White</h4>
+                        <code>#FFFFFF</code>
+                    </div>
+                </div>
+                <div class="swatch" style="background: var(--off-white);" data-color="#F5F3EF"
+                    onclick="copyToClipboard('#F5F3EF')">
+                    <div class="swatch-info" style="position:absolute; bottom:10px; left:15px; color:black;">
+                        <h4>Off-White</h4>
+                        <code>#F5F3EF</code>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Secondary (Social Editorials)</h3>
+            <div class="grid grid-4">
+                <div class="swatch" style="background: var(--color-gold);" data-color="#FFD700"
+                    onclick="copyToClipboard('#FFD700')"></div>
+                <div class="swatch" style="background: var(--color-seafoam);" data-color="#00FF6C"
+                    onclick="copyToClipboard('#00FF6C')"></div>
+                <div class="swatch" style="background: var(--color-neon-blue);" data-color="#0000FF"
+                    onclick="copyToClipboard('#0000FF')"></div>
+                <div class="swatch" style="background: var(--color-canary);" data-color="#FFEF00"
+                    onclick="copyToClipboard('#FFEF00')"></div>
+                <div class="swatch" style="background: var(--color-acid);" data-color="#D8FF00"
+                    onclick="copyToClipboard('#D8FF00')"></div>
+                <div class="swatch" style="background: var(--color-sky);" data-color="#71D9FF"
+                    onclick="copyToClipboard('#71D9FF')"></div>
+                <div class="swatch" style="background: var(--color-shade-pink);" data-color="#FF60A7"
+                    onclick="copyToClipboard('#FF60A7')"></div>
+                <div class="swatch" style="background: var(--color-green-neon);" data-color="#B5FF07"
+                    onclick="copyToClipboard('#B5FF07')"></div>
+                <!-- Add more if needed from CSS -->
+            </div>
+        </section>
+
+        <!-- 2. Typography -->
+        <section class="section">
+            <h2 class="text-prime-blue">02. Typography</h2>
+
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Primary: Ember Modern Display</h3>
+                    <p>Our primary typeface. Clean, coherent, and distinctly Amazon.</p>
+                    <div class="code-block">
+                        Install fonts from folder: <strong>Guidelines/For PV Subs/Font ember modern display</strong>
+                    </div>
+                </div>
+
+                <div class="card" style="background: var(--color-gold); color: black; border-color: var(--color-gold);">
+                    <h3 style="color:black; margin-bottom: 0.5rem;">Secondary Fonts</h3>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">Podium, Play Pen, Snug Sharp, Aptly, SZTOS,
+                        Obviously, Abril FatFace.</p>
+                    <p style="font-size: 0.8rem; opacity: 0.8;">Use for: Social editorials, memes, and scene lifts to
+                        add visual flair.</p>
+                    <a href="https://drive.google.com/drive/folders/1mTvD2NKroi0kF5Wj1opFVDL1zECEJw6q?usp=share_link"
+                        target="_blank" class="btn" style="background: black; color: var(--color-gold);">Download
+                        Secondary Fonts (Drive)</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Subtitles (The Bible) -->
+        <section class="section">
+            <h2 class="text-prime-blue">03. Subtitles (The Bible)</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Specs</h3>
+                    <p>Refer to these settings for exact values.</p>
+                    <p
+                        style="font-size:0.85rem; color:#FFD700; background:rgba(255, 215, 0, 0.1); padding:0.5rem; border-radius:4px; margin-bottom:1rem;">
+                        <strong>Note:</strong> These rules apply to <em>standard subtitles</em> only. Stylized/creative
+                        subtitles have more flexibility.
+                    </p>
+                    <div style="display:flex; flex-direction:column; gap:1rem;">
+                        <div>
+                            <strong>Font Settings:</strong>
+                            <img src="For PV Subs/Font settings SS2.jpg" alt="Font Settings"
+                                style="max-width:100%; border-radius:8px; border:1px solid #333; margin-top:0.5rem;">
+                        </div>
+                        <div>
+                            <strong>Shadow & Stroke:</strong>
+                            <img src="For PV Subs/Shdow and stroke value Settings SS.jpg"
+                                alt="Shadow and Stroke Settings"
+                                style="max-width:100%; border-radius:8px; border:1px solid #333; margin-top:0.5rem;">
+                        </div>
+                    </div>
+                </div>
+                <div class="card"
+                    style="text-align:center; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                    <h3>Quick Start</h3>
+                    <p>Don't manually configure every time.</p>
+
+                    <!-- Placement Image -->
+                    <div style="margin: 1rem 0;">
+                        <img src="For PV Subs/Subtitle_Placement.png" alt="Subtitle Placement Guide"
+                            style="max-width: 100%; border-radius: 8px; border: 1px solid #333;">
+                        <p style="font-size:0.8rem; color:#888; margin-top:0.25rem;">Visual Placement Guide</p>
+                    </div>
+
+                    <a href="For PV Subs/PV IG Subs.prtextstyle" download class="btn">Download Premiere Preset
+                        (.prtextstyle)</a>
+                    <p style="font-size:0.8rem; margin-top:1rem; color:#888;">Drag and drop into Premiere Pro Text
+                        Styles panel.</p>
+                </div>
+
+                <!-- New Writing Rules Card spans full width of grid-2 if needed, or just fits in flow. 
+                     Since grid-2 is auto-fit, we might want to make this span 2 columns or just be another card.
+                     Let's make it a full-width card below the grid-2 container essentially, or just add it to the grid. 
+                     For better layout, let's break the grid and add a new full-width section for rules. -->
+            </div>
+
+            <div class="card" style="margin-top: 1.5rem; border-color: var(--prime-blue);">
+                <h3 class="text-prime-blue">Subtitle Writing Rules</h3>
+                <div class="grid grid-2">
+                    <div>
+                        <h4 style="margin-bottom:0.5rem;">Line Breaks & Punctuation</h4>
+                        <ul style="font-size: 0.95rem; color: #e0e0e0; margin-bottom: 1rem;">
+                            <li><strong>Two Lines > One:</strong> Better to split long sentences into two balanced lines
+                                than one crampy line.</li>
+                            <li><strong>Break Points:</strong> Break <em>before</em> prepositions (of, on, for) and
+                                articles (a, an, the).</li>
+                            <li><strong>After Commas:</strong> Always break <em>after</em> a comma, never before.</li>
+                            <li><strong>No Hyphens:</strong> Avoid splitting words with hyphens across lines.</li>
+                        </ul>
+                        <img src="For PV Subs/Subtitle_Rules_1.png" alt="Line Break Examples"
+                            style="width:100%; border-radius:6px; border:1px solid #333;">
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom:0.5rem;">Formatting & Style</h4>
+                        <ul style="font-size: 0.95rem; color: #e0e0e0; margin-bottom: 1rem;">
+                            <li><strong>Casing:</strong> Use <strong>lowercase</strong> by default. <span
+                                    style="opacity:0.7">("hello world")</span></li>
+                            <li><strong>Exceptions:</strong> Capitalize only <strong>Proper Nouns</strong> (People,
+                                Characters, Places) and the letter <strong>"I"</strong>.</li>
+                            <li><strong>No Widows:</strong> Never leave a single word alone on a line. Balance it out.
+                            </li>
+                            <li><strong>Names Together:</strong> Keep names intact (e.g., "Mr. & Mrs. Smith" on one
+                                line).</li>
+                            <li><strong>Symbols:</strong> Use full-scale symbols (50%), <span style="color:#FF60A7">DO
+                                    NOT</span> use superscript (<sup>50%</sup>).</li>
+                        </ul>
+                        <img src="For PV Subs/Subtitle_Rules_2.png" alt="Formatting Examples"
+                            style="width:100%; border-radius:6px; border:1px solid #333;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Attribution -->
+        <section class="section">
+            <h2 class="text-prime-blue">04. Attribution & End Slates</h2>
+            <p>Select the correct PSD based on your delivery format.</p>
+
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Instagram Reels (9:16)</h3>
+                    <p>Vertical format for mobile.</p>
+                    <a href="PV attri for editors/9x16_Reel_attri.psd" class="btn btn-outline" download>Download 9:16
+                        PSD</a>
+                </div>
+                <div class="card">
+                    <h3>Instagram Carousel (4:5)</h3>
+                    <p>Standard feed post format.</p>
+                    <a href="PV attri for editors/4x5 carousel 1080x1350 attri.psd" class="btn btn-outline"
+                        download>Download 4:5 PSD</a>
+                </div>
+                <div class="card">
+                    <h3>YouTube (16:9)</h3>
+                    <p>Standard long-form video.</p>
+                    <a href="PV attri for editors/YT_attris/1080_YT_normal.psd" class="btn btn-outline"
+                        download>Download 1080p PSD</a>
+                    <div style="margin-top:0.5rem;">
+                        <a href="PV attri for editors/YT_attris/4k_YT_normal.psd" style="font-size:0.9rem;">Download 4K
+                            PSD</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Cinematic (Black Bars)</h3>
+                    <p>For letterboxed content.</p>
+                    <a href="PV attri for editors/YT_attris/1080_YT_with_blackbars.psd" class="btn btn-outline"
+                        download>Download 1080p (Black Bars)</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Safe Zones -->
+        <section class="section">
+            <h2 class="text-prime-blue">05. Safe Zones</h2>
+            <div class="card">
+                <h3>Avoid the Interface</h3>
+                <p>Ensure subtitles and logos strictly adhere to the blue safe zones to avoid being covered by UI
+                    elements.</p>
+                <div style="margin-top:1rem;">
+                    <!-- Resized Safe Zone Image -->
+                    <img src="For PV Subs/Subs should be in the blue area.png" alt="Safe Zone Guide"
+                        style="max-width: 400px; width: 100%; border-radius:8px; border:1px solid #333;">
+                    <br>
+                    <a href="For PV Subs/Subs should be in the blue area.png" download class="btn btn-outline"
+                        style="margin-top: 1rem;">Download Safe Zone PNG</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Mandates & Rules -->
+        <section class="section">
+            <h2 class="text-prime-blue">06. Mandates & Rules</h2>
+            <div class="grid grid-2">
+                <div class="card" style="border-left: 4px solid #00FF6C;">
+                    <h3 style="color: #00FF6C;">Visual & Audio Mandates</h3>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>✅ <strong>Fonts:</strong> Max 2 fonts per video. (Rare exceptions can have 3).</li>
+                        <li>✅ <strong>Colors:</strong> Limit to 2 contrasting colors. Ensure high readability.</li>
+                        <li>✅ <strong>Audio Levels:</strong> Ensure all audio is balanced and leveled properly.</li>
+                        <li>✅ <strong>Stock Assets:</strong> Use <em>Epidemic Sound</em> or <em>Envato Elements</em>
+                            only.</li>
+                        <li>✅ <strong>Reference:</strong> Check <a href="https://www.instagram.com/primevideoin/reels/"
+                                target="_blank" style="text-decoration:underline;">@primevideoin Reels</a> for visual
+                            style.</li>
+                    </ul>
+                </div>
+                <div class="card" style="border-left: 4px solid #FF60A7;">
+                    <h3 style="color: #FF60A7;">Critical Don'ts</h3>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>❌ <strong>NO RED:</strong> Do not use the color Red in any graphics or text.</li>
+                        <li>❌ <strong>No Copyright Music:</strong> Strictly prohibited.</li>
+                        <li>❌ <strong>No Deviations:</strong> Attribution & Fonts must match the preview
+                            <em>exactly</em>.
+                        </li>
+                        <li>❌ <strong>No Link Sharing:</strong> Do not share internal links.</li>
+                        <li>❌ <strong>Don't Mix Styles:</strong> Keep it clean. Avoid cluttering with too many font
+                            styles.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                style="margin-top: 2rem; padding: 1rem; border: 1px solid var(--card-border); border-radius: 8px; background: rgba(5, 120, 255, 0.1);">
+                <h4 style="margin-top:0;">Need Approval?</h4>
+                <p style="margin-bottom:0;">Contact <strong>TRB</strong> for permissions or specific asset requests.</p>
+            </div>
+        </section>
+
+        <!-- 7. Technical Specs -->
+        <section class="section">
+            <h2 class="text-prime-blue">07. Technical Specs</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Export Settings</h3>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>🎞️ <strong>Format:</strong> H.264 / H.265 (MP4)</li>
+                        <li>📉 <strong>Bitrate:</strong> 15-20 Mbps (Target) / 25 Mbps (Max)</li>
+                        <li>⏱️ <strong>Frame Rate:</strong> Match Source (Usually 24/25/30fps)</li>
+                        <li>📏 <strong>Resolution:</strong> 1080x1920 (Reels) / 1080x1350 (Carousel)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Audio Targets</h3>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>🗣️ <strong>Dialogue:</strong> -6dB to -12dB (Clear & Present)</li>
+                        <li>🎵 <strong>Music:</strong> -18dB to -24dB (Background)</li>
+                        <li>🔊 <strong>SFX:</strong> -10dB to -15dB (Accents)</li>
+                        <li>📢 <strong>Master Peak:</strong> -2dB (Never clip at 0dB)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Pre-Flight Checklist -->
+        <section class="section">
+            <h2 class="text-prime-blue">08. Editor's Pre-Flight</h2>
+            <div class="card" style="background: rgba(5, 120, 255, 0.05); border-color: var(--prime-blue);">
+                <h3>Ready to Render?</h3>
+                <p>Verify these items before hitting export.</p>
+                <div class="checklist"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+                    <label class="check-item" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" style="transform: scale(1.2);"> <span>Spelling & Grammar Checked?</span>
+                    </label>
+                    <label class="check-item" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" style="transform: scale(1.2);"> <span>Safe Zones Respected?</span>
+                    </label>
+                    <label class="check-item" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" style="transform: scale(1.2);"> <span>Audio Peaking Checked?</span>
+                    </label>
+                    <label class="check-item" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" style="transform: scale(1.2);"> <span>Hidden Layers Removed?</span>
+                    </label>
+                    <label class="check-item" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" style="transform: scale(1.2);"> <span>Fonts Matching Guide?</span>
+                    </label>
+                    <label class="check-item" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="checkbox" style="transform: scale(1.2);"> <span>Attribution Correct?</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <!-- Downloads ID -->
+        <section id="downloads" class="section" style="border-top: 1px solid #333; padding-top: 2rem;">
+            <h2 class="text-prime-blue">All Assets</h2>
+            <p>Quick access to folders.</p>
+            <ul>
+                <li><a href="For PV Subs/">Subtitle Assets Folder</a></li>
+                <li><a href="PV attri for editors/">Attribution Assets Folder</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Toast -->
+    <div id="toast">Copied!</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
